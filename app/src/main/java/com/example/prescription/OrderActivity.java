@@ -35,12 +35,13 @@ public class OrderActivity extends AppCompatActivity {
 //                + selectedPharmacy + " on " + selectedDate + " at " + selectedTime);
 //        return detailMessage;
 
-        // Code from 3/24/20 at 11:04 a.m. and updated
+        // This is the correct line but it's not working
         //EditText firstName = (EditText) findViewById(R.id.firstName);
+        //String first = (String) firstName.getText().toString();
 
+        // This gets Enter First Name
         String first = getString(R.string.firstName);
 
-        //String first = (String) firstName.getText().toString();
 
         // Get selected item from Pharmacy Spinner
         Spinner pharmacySpinner = (Spinner) findViewById(R.id.pharmacySpinner);
